@@ -1,22 +1,32 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+  user-select: none;
 }
 
-.App-logo {
-  height: 40vmin;
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
+    helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+}
+
+#root > div {
+  width: 80px;
+  height: 80px;
+  border-radius: 16px;
+}
+
+
+#root {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+  background: #ecede7;
 }
